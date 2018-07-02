@@ -7,7 +7,7 @@ let myValue = 0;
 // 3. Console log the value of the array at index 2
 console.log(arrayValues[2]);
 // 4. Remove the last item in the array, then console log the array
-let arrayPop = arrayValues.pop(10);
+let arrayPop = arrayValues.pop();
 console.log(arrayPop);
 // 5. Add the value of number 15 to the end of the array
 arrayValues.push(15);
