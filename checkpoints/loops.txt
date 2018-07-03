@@ -1,0 +1,12 @@
+# Type your responses on a new line
+
+# 1 - In your opinion, what are the benefits of using loops?
+ loops can reduce repative tasks such as making a card deck.
+# 2 - What kind of loop would you want to use if you wanted to do something a certain number of times: for or while?
+for loops are best suited for tasks that you want to use only a certain amount of times
+# 3 - What kind of loop would you want to use if you wanted to do something as long as a condition were true: for or while?
+while loops can be run an unspecified amount of times, but there is risk of creating infinite loops.
+# 4 - What is wrong with the argument for this for loop: `for(i = 0; i < array.length; i++)`?
+it is miising let when assigning i the value of 0, it should look more like this for(let i = 0; i < array.length; i++)
+# 5 - What does it mean if you get a console error like this: "Uncaught ReferenceError: i is undefined"?
+the variable i is not assigned a value.

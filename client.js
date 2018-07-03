@@ -12,19 +12,21 @@ console.log(arrayPop);
 // 5. Add the value of number 15 to the end of the array
 arrayValues.push(15);
 // 6. Write a `for` loop that console logs each value in the array
-for(let i=0; i < arrayValues.length;i++);
+for(let i=0; i < arrayValues.length;i++) {
+    console.log(arrayValues[i]);
+};
 // STRETCH GOALS
 
 // 7. Write a `while` loop that will increase the value of 'myValue' by 1 until its value is 10
 while(myValue < 11){
     myValue++;
-    break;
 }//end while loop
 // 8. Change the second value in the array from 6 to 20, then console log the array
 arrayValues[1] = 20;
+console.log(arrayValues);
 // 9. Below, rewrite the `for` loop from question 6 to a `for of` loop
 for(let array of arrayValues){
-    array;
+    console.log(array);
 }//end for of loop
 
 // 10. Reassign the value of `myValue` to 3. Then, write a `for` loop that console logs each value in the array,

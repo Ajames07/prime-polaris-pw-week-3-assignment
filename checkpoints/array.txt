@@ -1,0 +1,16 @@
+## Type your responses on a new line
+
+How would you do the following:
+
+# 1 - Find the number of items in an array?
+add .length to the end of the array variable.
+# 2 - Add a new value to the end of an array?
+add .push() to the end of an array variable.
+# 3 - Add a new value to the beginning of an array?
+add .unshift to the end of an array variable.
+# 4 - Remove the last item in an array?
+add .pop() to the end of an array variable.
+# 5 - Remove the first item in an array?
+add .shift() to the end of an arrray variable, this will remove the first item and shift the following index number forward.
+# 6 - Create a new, empty array and assign it to a variable?
+let arrayValue = new array[];
